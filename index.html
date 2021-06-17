@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+    <!-- FA5 CSS -->
+	<link rel="stylesheet" href="./assets/fa/css/all.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+	<title>Депозитный калькулятор</title>
+	
+	<script src="./assets/css/js/code.js"></script>
+  </head>
+  <body>
+   
+	<div class="container mt-5 " >
+		
+		<h5 class="mb-4 text-center">Індекс маси тіла</h5>
+	
+		<!-- Input Data Form -->
+		
+
+		<div class="input-g">
+			<div class="form-group ">
+			  <label for="massInput">Маса (в кг)</label>
+			  <input type="number" class="form-control" id="massInput" 	min="1" max="1000" value="60">
+			</div>
+
+			<div class="form-group ">
+			  <label for="heihgtInput">Зріст (в м)</label>
+			  <input type="number" class="form-control" id="heihgtInput" min="0" max="5" value="1.72">
+			</div> 
+
+		
+		  
+		  <button onclick="calc()" class="btn btn-primary b-calc">Розрахувати</button>
+		</div>
+		
+		<!-- /Input Data Form -->
+				
+		<p class='mt-5 text-center'>Ваш діагноз: <output id="resultPlace">-</output></p>
+
+	</div>
+   
+  </body>
+</html>

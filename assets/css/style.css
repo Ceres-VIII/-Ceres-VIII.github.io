@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../fonts/JetBrainsMono-Regular.woff2');
+}
+
+body {
+    font-family: 'JetBrains Mono' !important;
+}
+.input-g{
+    width: 300px;
+    margin: auto;
+}
+.b-calc{
+    width: 100% !important;
+    margin-top: 20px !important;
+}
